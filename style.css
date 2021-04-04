@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+header{
+    background-image: url(https://wallpapercave.com/wp/wp3299062.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: white;
+    text-decoration:none ;
+    background-image:radial-gradient(circle at top left, #fd00da, #19d7f8);
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+ul li a:hover{
+    transition: 0.3s steps(50);
+    background: linear-gradient(to right,rgb(255, 194, 81), rgb(255, 61, 61));
+    color: rgb(0, 0, 0);
+}
+
+.logo img{
+    float: left;
+    width: 140px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.LogoTop h2{
+    padding-top: 5%;
+    color: rgb(42, 119, 170);
+    text-decoration-line:line-through;
+
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 35vh;
+    left: 40vh;
+}
+
+
+.title h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(255, 0, 242), 0 0 5px rgb(255, 0, 200), 0 0 5px rgb(0, 255, 55);
+      
+}
+
+
+h1::after{
+    content: '` ` `';
+    width: 7px;
+    height: 220%;
+    background: linear-gradient(rgb(255, 0, 43),rgb(0, 225, 255));
+    position: absolute;
+    left: -50px;
+    top: 10px;
+}
+
+.button{
+    position: absolute;
+    top: 50vh;
+    left: 40vh;
+}
+
+.but{
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration:none ;
+    background-image:radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+}
+
+.but:hover{
+    transition: 0.5s ease-in;
+    background: linear-gradient(to right, #19d7f8, #fd00da);
+    color: rgb(0, 0, 0);
+}
+
